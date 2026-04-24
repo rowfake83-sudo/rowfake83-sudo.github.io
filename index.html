@@ -5,18 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>AI Transparency and Safety Act</title>
   <style>
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background: #f3f6fb;
-      color: #1f2937;
-      line-height: 1.6;
-    }
+    * { box-sizing: border-box; scroll-behavior: smooth; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f3f6fb; color: #1f2937; }
 
     header {
       background: linear-gradient(135deg, #0f172a, #1d4ed8);
@@ -25,16 +15,7 @@
       padding: 70px 20px;
     }
 
-    header h1 {
-      font-size: 44px;
-      margin: 0 0 15px;
-    }
-
-    header p {
-      font-size: 19px;
-      max-width: 760px;
-      margin: auto;
-    }
+    header img { width: 120px; margin-bottom: 15px; }
 
     nav {
       background: white;
@@ -43,22 +24,11 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.08);
       position: sticky;
       top: 0;
-      z-index: 10;
     }
 
-    nav a {
-      color: #1d4ed8;
-      text-decoration: none;
-      font-weight: bold;
-      margin: 0 10px;
-      font-size: 15px;
-    }
+    nav a { margin: 0 10px; text-decoration: none; color: #1d4ed8; font-weight: bold; }
 
-    .container {
-      width: 90%;
-      max-width: 1000px;
-      margin: 30px auto;
-    }
+    .container { width: 90%; max-width: 1000px; margin: 30px auto; }
 
     section {
       background: white;
@@ -68,35 +38,12 @@
       box-shadow: 0 4px 14px rgba(0,0,0,0.07);
     }
 
-    h2 {
-      color: #1e3a8a;
-      margin-top: 0;
-      border-left: 6px solid #2563eb;
-      padding-left: 12px;
-    }
+    h2 { color: #1e3a8a; border-left: 6px solid #2563eb; padding-left: 10px; }
 
-    h3 {
-      color: #111827;
-      margin-bottom: 8px;
-    }
-
-    ul, ol {
-      padding-left: 25px;
-    }
-
-    li {
-      margin-bottom: 10px;
-    }
-
-    .hero-button {
-      display: inline-block;
-      margin-top: 25px;
-      background: white;
-      color: #1d4ed8;
-      padding: 13px 22px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
+    img.section-img {
+      width: 100%;
+      border-radius: 12px;
+      margin-top: 15px;
     }
 
     .grid {
@@ -108,199 +55,75 @@
 
     .card {
       background: #f8fafc;
-      border: 1px solid #e5e7eb;
-      border-radius: 14px;
-      padding: 20px;
-    }
-
-    .card strong {
-      color: #1d4ed8;
-    }
-
-    .callout {
-      background: #dbeafe;
-      border-left: 6px solid #2563eb;
-      padding: 18px;
+      padding: 15px;
       border-radius: 12px;
-      margin-top: 15px;
-      font-weight: bold;
-    }
-
-    .support-box {
-      background: #eff6ff;
-      padding: 22px;
-      border-radius: 14px;
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .support-button {
-      display: inline-block;
-      background: #2563eb;
-      color: white;
-      padding: 14px 24px;
-      border-radius: 10px;
-      text-decoration: none;
-      font-weight: bold;
-      margin-top: 10px;
     }
 
     footer {
       background: #0f172a;
       color: white;
       text-align: center;
-      padding: 25px;
-      margin-top: 40px;
-    }
-
-    @media (max-width: 600px) {
-      header h1 {
-        font-size: 32px;
-      }
-
-      nav a {
-        display: inline-block;
-        margin: 6px;
-      }
-
-      section {
-        padding: 22px;
-      }
+      padding: 20px;
     }
   </style>
 </head>
 <body>
 
-  <header>
-    <h1>The AI Transparency and Safety Act</h1>
-    <p>A proposed law that makes artificial intelligence safer, more honest, and more responsible while still allowing innovation.</p>
-    <a class="hero-button" href="#support">Why Support It?</a>
-  </header>
+<header>
+  <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png">
+  <h1>AI Transparency and Safety Act</h1>
+  <p>Making AI safer and more honest</p>
+</header>
 
-  <nav>
-    <a href="#problem">Problem</a>
-    <a href="#rules">Rules</a>
-    <a href="#benefits">Benefits</a>
-    <a href="#criticisms">Criticisms</a>
-    <a href="#support">Support</a>
-  </nav>
+<nav>
+  <a href="#problem">Problem</a>
+  <a href="#rules">Rules</a>
+  <a href="#benefits">Benefits</a>
+  <a href="#support">Support</a>
+</nav>
 
-  <main class="container">
+<div class="container">
 
-    <section id="problem">
-      <h2>What AI Problem Does This Law Solve?</h2>
-      <p>
-        Artificial intelligence is becoming part of school, work, social media, business, and politics. AI can be helpful, but it can also create serious problems when people do not know how it is being used.
-      </p>
-      <p>
-        Some AI tools can create fake images, fake videos, fake news, and fake voices. Other AI systems can collect personal data or make decisions about jobs, school, healthcare, or money without clearly explaining how those decisions were made.
-      </p>
-      <div class="callout">
-        This law solves the problem of AI being used without transparency, safety testing, or accountability.
-      </div>
-    </section>
+<section id="problem">
+  <h2>Problem</h2>
+  <p>AI can create fake images, misinformation, and collect personal data without users knowing.</p>
+  <img class="section-img" src="https://images.unsplash.com/photo-1677442136019-21780ecad995">
+</section>
 
-    <section id="why-matters">
-      <h2>Why This Issue Matters</h2>
-      <div class="grid">
-        <div class="card">
-          <h3>Misinformation</h3>
-          <p>AI can quickly create fake content that looks real, which can confuse students, voters, and the public.</p>
-        </div>
-        <div class="card">
-          <h3>Privacy</h3>
-          <p>People may not know when their personal data is being collected or used to train AI systems.</p>
-        </div>
-        <div class="card">
-          <h3>Bias</h3>
-          <p>AI systems can make unfair decisions if they are trained on biased or incomplete information.</p>
-        </div>
-        <div class="card">
-          <h3>Accountability</h3>
-          <p>If AI causes harm, companies should not be able to avoid responsibility by blaming the technology.</p>
-        </div>
-      </div>
-    </section>
+<section id="rules">
+  <h2>Main Rules</h2>
+  <ul>
+    <li>Label AI content</li>
+    <li>Tell users when AI is used</li>
+    <li>Test AI for bias</li>
+    <li>Protect user data</li>
+  </ul>
+  <img class="section-img" src="https://images.unsplash.com/photo-1581091870622-1e7f1e2e8f5e">
+</section>
 
-    <section id="rules">
-      <h2>Main Rules of the Law</h2>
-      <ol>
-        <li><strong>AI content labels:</strong> AI-generated images, videos, voices, and articles must be clearly labeled.</li>
-        <li><strong>AI disclosure:</strong> Companies must tell users when they are talking to or being judged by an AI system.</li>
-        <li><strong>Safety testing:</strong> AI used in jobs, schools, healthcare, banking, or law enforcement must be tested before release.</li>
-        <li><strong>Bias checks:</strong> Companies must check if their AI treats people unfairly based on race, gender, age, language, income, or disability.</li>
-        <li><strong>Data rights:</strong> People must be told if their personal data is used to train AI, and they should be able to request removal when possible.</li>
-        <li><strong>Human review:</strong> Important decisions made by AI must allow a human appeal process.</li>
-        <li><strong>Penalties:</strong> Companies that break the law can receive fines or lose permission to use unsafe AI systems.</li>
-      </ol>
-    </section>
+<section id="benefits">
+  <h2>Who Benefits?</h2>
+  <div class="grid">
+    <div class="card">Students</div>
+    <div class="card">Workers</div>
+    <div class="card">Voters</div>
+    <div class="card">Everyone</div>
+  </div>
+  <img class="section-img" src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f">
+</section>
 
-    <section id="benefits">
-      <h2>Who Benefits?</h2>
-      <div class="grid">
-        <div class="card">
-          <strong>Students</strong>
-          <p>Students benefit because fake AI information and cheating tools become easier to identify.</p>
-        </div>
-        <div class="card">
-          <strong>Workers</strong>
-          <p>Workers benefit because AI hiring systems must be checked for unfair bias.</p>
-        </div>
-        <div class="card">
-          <strong>Voters</strong>
-          <p>Voters benefit because fake political videos, images, and voices must be labeled.</p>
-        </div>
-        <div class="card">
-          <strong>Consumers</strong>
-          <p>Customers benefit because companies must be honest about when AI is being used.</p>
-        </div>
-      </div>
-    </section>
+<section id="support">
+  <h2>Why Support It</h2>
+  <p>This law protects people and keeps AI companies responsible.</p>
+  <img class="section-img" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df">
+</section>
 
-    <section id="criticisms">
-      <h2>Possible Criticisms</h2>
-      <p>
-        Some people may say this law could slow down AI innovation. They may argue that companies need freedom to experiment and build new tools quickly.
-      </p>
-      <p>
-        Others may say that small businesses could struggle to pay for safety testing or legal requirements. This is a fair concern, so the law could give small companies extra time and support to follow the rules.
-      </p>
-      <p>
-        However, AI is too powerful to be completely unregulated. Safety rules do not stop innovation. They make sure innovation helps people instead of harming them.
-      </p>
-    </section>
+</div>
 
-    <section id="support">
-      <h2>Why Voters Should Support It</h2>
-      <p>
-        Voters should support the AI Transparency and Safety Act because it protects people without banning AI. The law does not say that AI is bad. Instead, it says that AI should be used honestly, safely, and fairly.
-      </p>
-      <p>
-        This law gives people more control over their data, helps stop fake information, protects workers and students, and keeps companies accountable when their AI systems affect real lives.
-      </p>
-      <div class="support-box">
-        <h3>Support Safe and Honest AI</h3>
-        <p>AI should help people, not confuse, harm, or secretly control them.</p>
-        <a class="support-button" href="#">Support the Law</a>
-      </div>
-    </section>
-
-    <section id="progress">
-      <h2>Project Progress Log</h2>
-      <ul>
-        <li><strong>Day 1:</strong> I chose my AI law topic and focused on transparency, safety, and privacy.</li>
-        <li><strong>Day 2:</strong> I planned the required website sections from the rubric.</li>
-        <li><strong>Day 3:</strong> I created the HTML and CSS for the website.</li>
-        <li><strong>Day 4:</strong> I added information about rules, benefits, criticisms, and voter support.</li>
-        <li><strong>Day 5:</strong> I prepared the website for GitHub Pages and checked that it matched the project rubric.</li>
-      </ul>
-    </section>
-
-  </main>
-
-  <footer>
-    <p>AI Regulation Advocacy Project | Created for class</p>
-  </footer>
+<footer>
+  <p>AI Project Website</p>
+</footer>
 
 </body>
 </html>
+
